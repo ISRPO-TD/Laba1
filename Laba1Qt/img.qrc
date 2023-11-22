@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Res/Americano.png</file>
+        <file>Res/Cacao.png</file>
+        <file>Res/Capuchino.png</file>
+        <file>Res/Espresso.png</file>
+        <file>Res/Milk.png</file>
+        <file>Res/Sugar.png</file>
+    </qresource>
+</RCC>
