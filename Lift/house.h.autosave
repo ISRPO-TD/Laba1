@@ -1,0 +1,18 @@
+#ifndef HOUSE_H
+#define HOUSE_H
+#include "elevator.h"
+
+class LiftController
+{
+public:
+    LiftController(int floorsNumber);
+    ~LiftController();
+    int getFloorsNumber();
+    void setElevator(Elevator* elevator);
+    
+private:
+    int _floorsNumber;
+    Elevator* _elevator;
+};
+
+#endif // HOUSE_H

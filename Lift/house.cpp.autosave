@@ -1,0 +1,21 @@
+#include "house.h"
+
+House::House(int floorsNumber)
+{
+    _floorsNumber = floorsNumber;
+}
+
+House::~House(){
+    if(elevator != nullptr){
+        delete elevator;
+    }
+}
+
+int House::getFloorsNumber(){
+    return _floorsNumber;
+}
+
+void House::setElevator(Elevator* elevator){
+    _elevator = elevator;
+}
+
